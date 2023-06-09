@@ -3,28 +3,28 @@ export default {
     title:'Testimonials',
     type: 'document',
     fields:[
-        {
-            name: 'name',
+        { 
+            name:'name',
             title:'Name',
-            type:'string',
+            type: 'string'
         },
         {
-            name: 'company',
+            name:'company',
             title:'Company',
-            type:'string',
+            type:'string'
         },
         {
-            name: 'image',
+            name:'imgurl',
             title:'ImgUrl',
-            type:'image',
-            Option:{
-                hotspot:true,
-            }
-        },
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },  
         {
-            name: 'feedback',
+            name:'feedback',
             title:'Feedback',
-            type:'string',
+            type:'string'
         }
     ]
 }
